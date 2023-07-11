@@ -1,0 +1,7 @@
+{
+    "name": "weather/weathers",
+    "description": "api",
+    "require": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
