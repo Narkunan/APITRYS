@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Store</h1>
+    <nav>
+      <a href="#">Categories</a>
+      <a href="#">Books</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div id="categories">
+      <ul>
+        <li><a href="#">Fiction</a></li>
+        <li><a href="#">Non-fiction</a></li>
+        <li><a href="#">Children's books</a></li>
+        <li><a href="#">Cookbooks</a></li>
+        <li><a href="#">Self-help</a></li>
+      </ul>
+    </div>
+    <div id="books">
+      <ul>
+        <li>
+          <img src="book1.jpg" alt="Book 1">
+          <h2>The Alchemist</h2>
+          <p>Paulo Coelho</p>
+          <p>$10.99</p>
+        </li>
+        <li>
+          <img src="book2.jpg" alt="Book 2">
+          <h2>Harry Potter and the Sorcerer's Stone</h2>
+          <p>J.K. Rowling</p>
+          <p>$14.99</p>
+        </li>
+        <li>
+          <img src="book3.jpg" alt="Book 3">
+          <h2>To Kill a Mockingbird</h2>
+          <p>Harper Lee</p>
+          <p>$12.99</p>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#categories {
+  float: left;
+  width: 20%;
+}
+
+#books {
+  float: left;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
