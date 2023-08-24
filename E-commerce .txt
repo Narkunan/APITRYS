@@ -1,108 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>E-Commerce Template</title>
-</head>
-<body>
-  <div class="container">
-    <div class="sidebar">
-      <!-- Category list goes here -->
-      <ul class="category-list">
-        <li>Category 1</li>
-        <li>Category 2</li>
-        <li>Category 3</li>
-        <!-- Add more categories -->
-      </ul>
-    </div>
-    <div class="content">
-      <!-- Search bar goes here -->
-      <div class="search-bar">
-        <input type="text" placeholder="Search...">
-        <button>Search</button>
-      </div>
-      <!-- Book listings go here -->
-      <div class="book-list">
-        <!-- Example book item (repeat for dynamic content) -->
-        <div class="book-item">
-          <img src="book1.jpg" alt="Book 1">
-          <h3>Book Title 1</h3>
-          <p>Author: Author Name</p>
-          <p>Price: $19.99</p>
-        </div>
-        <!-- Repeat for more books -->
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+user
+uid auto
+name
+passed
+email
 
+ 
 
-/* Reset default margin and padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+ 
 
-/* Basic styling */
-.container {
-  display: flex;
-  justify-content: space-between;
-}
+user_role
+id
+uid
+rid
 
-.sidebar {
-  width: 20%;
-  padding: 20px;
-  background-color: #f0f0f0;
-}
+ 
 
-.category-list {
-  list-style: none;
-}
-
-.content {
-  flex: 1;
-  padding: 20px;
-}
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.search-bar input {
-  flex: 1;
-  padding: 10px;
-}
-
-.search-bar button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.book-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.book-item {
-  width: 48%;
-  margin: 1%;
-  padding: 20px;
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.book-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Add more specific styling as needed */
+roles
+id
+nameHi sir i have doubt if i change the database eg mark is author i can redirect him to author page if john is user we can redirect him to user dashboard suppose johnson is an author and user how can we redirect him
