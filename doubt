@@ -1,1 +1,48 @@
-when user create account with this email id like narkunan@gmail.com but now he also wanted to be a author by using the same email how we can create both role for him
+<html>
+    <head>
+        <title>
+            hiiii
+        </title>
+    </head>
+    <body>
+        <h1>display Message</h1>
+        
+        {% set url="../" %}
+        {% set foo='foood'%}
+        <h1>{{foo}}</h1>
+        {% set food={'foo':'bar'} %}
+        <h1>{{food.foo}}</h1>
+       {% for books in data %}
+          <h1>{{books.title}}</h1>
+          <h1>{{books.coverpage}}</h1>
+          <h1>{{ url ~ books.coverpage}}</h1>
+        {% endfor %}
+        <img src="../fluid.webp" width="200px" height="200px">
+    </body>
+</html>  this in first.php C:\xampp\htdocs\example\templates\input.html this the path <?php
+
+require "vendor/autoload.php";
+use Twig\Environment;
+use Twig\Loader\FilesystemLoader;
+
+$loader = new FilesystemLoader('templates');
+$twig=new Environment($loader);
+$template=$twig->load('input.html');
+//$book=array("cars","truck","bus","bicycle","bike","lorry");
+$conn=new PDO("mysql:host=localhost;dbname=bookstore","root","Tharun");
+$sql="SELECT * FROM BOOK";
+$stm=$conn->query($sql);
+$book=$stm->fetchAll(PDO::FETCH_ASSOC);
+echo $template->render(['data'=>$book]);
+class first
+{
+    public function display()
+    {
+        echo "display 1";
+    }
+    public function display2()
+    {
+        echo "display3";
+    }
+} C:\xampp\htdocs\example\first.php this is the first.php file C:\xampp\htdocs\example\fluid.webp this is the image path it it 
+is not display image
